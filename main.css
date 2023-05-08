@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+}
+header{
+    background-color: #1c1818;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 19px 0;
+}
+ul li a i{
+    color: #ffffff;
+}
+ul li a i:hover{
+    color: #eb592d;
+    cursor: pointer;
+    transition: 0.4s;
+}
+ul li {
+    cursor: pointer;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px ;
+    align-items: center;
+   
+}
+.header-list ul{
+align-items: center;
+}
+.dropdown{
+    position: absolute;
+    visibility: hidden;
+}
+.header-list ul li a{
+    color: #102955;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.header-list ul li a i{
+    color: #102955;
+}
+.header-list ul li a i:hover{
+    color: #eb592d;
+}
+.header-list ul li a:hover{
+    color: #eb592d;
+    cursor: pointer;
+}
+.about{
+    background-image: url(https://preview.colorlib.com/theme/anipat/img/banner/banner.png.webp);
+}
+.right{
+    width: 60%;
+}
+.right img{
+    padding-top: 50px;
+    width: 100%;
+}
+.left{
+    padding-left: 100px;
+    position: relative;
+    z-index: 6;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left h3{
+    color: #ffffff;
+    font-size: 75px;
+    font-weight: 200;
+    margin-bottom: 4px;
+    line-height: 85px;
+}
+.left h3 span {
+    font-weight: 800;
+}
+
+.left p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 32px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 12px;
+}
+.left a{
+    font-weight: 600;
+    border: 1px solid transparent;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #eb592d;
+    padding: 20px 50px;
+    border-radius: 30px;
+    width: 60%;
+    text-decoration: none;
+}
+.left a:hover{
+    background-color: #ff3500;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.4s;
+}
